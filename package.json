@@ -1,0 +1,23 @@
+{
+  "name": "three-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently -r \"webpack -w \" \"serve ./\"",
+    "build": "webpack",
+    "serve": "serve ./"
+  },
+  "dependencies": {
+    "three": "^0.133.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.132.2",
+    "concurrently": "^6.3.0",
+    "serve": "^12.0.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.3",
+    "webpack": "^5.56.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
